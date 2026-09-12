@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": "U-001",
+      "username": "AxentraStore",
+      "email": "admin@axentrasellerpanel.local",
+      "password": "1f7653d9ae808b994c1670bc16a4a388:df826bab1e6bf4e2561e357e0d62b61a95fb2e477b71300fe0620665486a39f6453fabb733c4d26024fae7399bbf62a2f5f346afc645a3d213f7b313aec78f64",
+      "role": "Kurucu",
+      "balance": 0,
+      "debt": 0,
+      "debtLimit": 0,
+      "status": "Aktif",
+      "emailVerified": true,
+      "profilePhoto": null,
+      "theme": "dark",
+      "accent": "orange",
+      "createdAt": "2026-09-12T10:25:00.938Z"
+    }
+  ],
+  "categories": [],
+  "products": [],
+  "keys": [],
+  "orders": [],
+  "finance": [],
+  "tickets": [],
+  "resellers": [],
+  "notifications": [],
+  "logs": [
+    {
+      "date": "12.09.2026 10:25:01",
+      "user": "AxentraStore",
+      "action": "Giriş",
+      "detail": "Web oturumu"
+    }
+  ],
+  "campaigns": [],
+  "announcements": [],
+  "refunds": [],
+  "session": null,
+  "settings": {
+    "title": "AxentraSellerPanel",
+    "currency": "$",
+    "delivery": "Otomatik key teslimatı",
+    "store": true,
+    "register": true
+  }
+}
