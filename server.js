@@ -40,4 +40,6 @@ const server=http.createServer(async(req,res)=>{try{const url=new URL(req.url,`h
  if(req.method==='GET'){const fp=path.normalize(path.join(__dirname,'public',url.pathname));if(fp.startsWith(path.join(__dirname,'public'))&&fs.existsSync(fp)&&fs.statSync(fp).isFile()){const ext=path.extname(fp);const type=ext==='.css'?'text/css':ext==='.js'?'text/javascript':'application/octet-stream';res.writeHead(200,{'Content-Type':type});return fs.createReadStream(fp).pipe(res)}}
  return send(res,404,{ok:false,error:'Not Found'});
 }catch(e){console.error(e);send(res,500,{ok:false,error:'Sunucu hatası.'})}});
-server.listen(PORT,()=>console.log(`AxentraSellerPanel REAL → http://localhost:${PORT}`));
+server.listen(LİMAN, "0.0.0.0", () => {
+  console.log(`AxentraSellerPanel REAL → http://0.0.0.0:${LİMAN}`)
+});
